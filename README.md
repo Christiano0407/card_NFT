@@ -20,6 +20,23 @@ Create one NFT Card
 
 ![](/src/assets/image/nft2.png)
 
+# Design System Project
+
+> Palette Color
+
+- clr-white: #fff;
+- clr-black: #000000;
+- main-bg: #0d192b;
+- card-bg: #14253d;
+- line: #2f415b;
+- white: #ffffff;
+- cyan: #00fff7;
+- soft-blue: #8bacda;
+
+> Font ( Google)
+
+- [Google Fonts](https://fonts.google.com/)
+
 # MIT License
 
 > MIT License
