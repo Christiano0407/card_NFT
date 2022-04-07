@@ -1,0 +1,23 @@
+{
+  "name": "card_nft",
+  "version": "1.0.0",
+  "description": "NFT Card Design",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/card_NFT.git"
+  },
+  "keywords": [
+    "javascript",
+    "NFT"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/card_NFT/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/card_NFT#readme"
+}

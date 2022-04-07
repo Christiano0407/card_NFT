@@ -1,0 +1,20 @@
+//** === Components ===*/
+
+//** === Root ===*/
+:root {
+  --clr-white: #fff;
+  --clr-black: #000000;
+}
+//** === Design System  General ===*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+//** ==== Project */
