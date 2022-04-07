@@ -16,6 +16,10 @@ Create one NFT Card
 
 > Final Project Card NFT
 
+![](/src/assets/image/nft1.png)
+
+![](/src/assets/image/nft2.png)
+
 # MIT License
 
 > MIT License
