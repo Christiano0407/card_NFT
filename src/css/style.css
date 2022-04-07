@@ -30,8 +30,8 @@ a {
   cursor: pointer;
 }
 img {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   object-fit: cover;
   background-size: cover;
   background-position: center center;
@@ -42,6 +42,8 @@ body {
   font-size: 1.8rem;
   /*  background-color: var(--main-bg); */
   background-color: #0c182b;
+  display: grid;
+  place-items: center;
 }
 /** ==== Project */
 .card {
@@ -50,7 +52,7 @@ body {
   background-color: var(--card-bg);
   padding: 25px 25px;
   border-radius: 2%;
-  margin: 50px auto;
+  /*   margin: 50px auto; */
   font-weight: 500;
   line-height: 2.6rem;
   color: #8bacd9;
@@ -87,4 +89,44 @@ body {
 }
 .img__overlay .icon-NFT {
   justify-content: center;
+}
+.img__overlay:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  margin: 15px 0;
+  padding-bottom: 1rem;
+}
+.price,
+.time {
+  display: flex;
+  align-items: center;
+}
+.price:first-child {
+  color: var(--cyan);
+}
+.price img,
+.time img {
+  margin-right: 0.5rem;
+}
+.creator {
+  display: flex;
+  align-items: center;
+}
+.creator img {
+  width: 4rem;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
+.creator span {
+  color: #fff;
+  cursor: pointer;
+}
+.creator span:hover {
+  color: #00fff7;
 }
