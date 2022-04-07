@@ -1,6 +1,6 @@
-//** === Components ===*/
+/** === Components ===*/
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
-//** === Root ===*/
+/** === Root ===*/
 :root {
   --clr-white: #fff;
   --clr-black: #000000;
@@ -8,10 +8,10 @@
   --card-bg: #14253d;
   --line: #2f415b;
   --white: #ffffff;
-  --cyan: #00fff7
-  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: #00fff7;
+  --soft-blue: #8bacda;
 }
-//** === Design System  General ===*/
+/** === Design System  General ===*/
 *,
 *::before,
 *::after {
@@ -43,9 +43,48 @@ body {
   /*  background-color: var(--main-bg); */
   background-color: #0c182b;
 }
-//** ==== Project */
-.card{
+/** ==== Project */
+.card {
   width: 450px;
   position: relative;
   background-color: var(--card-bg);
+  padding: 25px 25px;
+  border-radius: 2%;
+  margin: 50px auto;
+  font-weight: 500;
+  line-height: 2.6rem;
+  color: #8bacd9;
+}
+.text-NFT {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  margin: 2rem 0 1rem 0;
+}
+.text-NFT:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.nft__card--image {
+  width: 100%;
+  position: relative;
+  border-radius: 2%;
+}
+
+.img__overlay {
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  top: 2.5rem;
+  left: 2.5rem;
+  opacity: 0;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img__overlay .icon-NFT {
+  justify-content: center;
 }
